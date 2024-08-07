@@ -1,0 +1,21 @@
+/* src/components/ViewList/ViewsList.css */
+.views-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.views-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.view-item {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.view-item img {
+  max-width: 100%;
+  height: auto;
+}
